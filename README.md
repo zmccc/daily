@@ -18,14 +18,14 @@
     合并     将一个分支的代码集成到另一个分支的操作
     远程     __与本地仓库关联的远程仓库__，通过配置远程仓库，开发者可以将本地代码提交到远程仓库中，或者从远程仓库中拉取最新的代码到本地仓库
 4. git基本操作
-    __git add .__: 将更改的代码添加到暂存区
-    __git restore 'file'__: 移除工作区的代码
-    __git restore --staged 'file'__: 将指定文件从暂存区移除
-    __git commit -m 'message'__: 将暂存区的代码添加到当前的分支
-    __git clone 'repository name'__: 克隆远程仓库的代码到本地
-    __git branch 'branch name'__: 创建一个新分支
-    __git switch 'branch name'__: 切换到另一个分支
-    __git switch -c 'branch name'__: 创建一个新分支，并且切换到新分支
-    __git merge 'branch name'__: 合并分支
-    __git remote add origin 'repository address'__: 关联远程仓库，用于获取远程最新代码，或者推送本地代码到远程仓库
-    __git push --set-upstream origin 'branch name'__: 将本地分支推送到远程分支，并关联远程分支
+    __git add .__: 将更改的代码添加到暂存区 <br>
+    __git restore 'file'__: 移除工作区的代码 <br>
+    __git restore --staged 'file'__: 将指定文件从暂存区移除 <br>
+    __git commit -m 'message'__: 将暂存区的代码添加到当前的分支 <br>
+    __git clone 'repository name'__: 克隆远程仓库的代码到本地 <br>
+    __git branch 'branch name'__: 创建一个新分支 <br>
+    __git switch 'branch name'__: 切换到另一个分支 <br>
+    __git switch -c 'branch name'__: 创建一个新分支，并且切换到新分支 <br>
+    __git merge 'branch name'__: 合并分支 <br>
+    __git remote add origin 'repository address'__: 关联远程仓库，用于获取远程最新代码，或者推送本地代码到远程仓库 <br>
+    __git push --set-upstream origin 'branch name'__: 将本地分支推送到远程分支，并关联远程分支 <br>
