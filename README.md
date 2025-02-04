@@ -28,3 +28,4 @@
     __git switch -c 'branch name'__: 创建一个新分支，并且切换到新分支
     __git merge 'branch name'__: 合并分支
     __git remote add origin 'repository address'__: 关联远程仓库，用于获取远程最新代码，或者推送本地代码到远程仓库
+    __git push --set-upstream origin 'branch name'__: 将本地分支推送到远程分支，并关联远程分支
