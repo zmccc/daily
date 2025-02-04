@@ -27,3 +27,4 @@
     __git switch 'branch name'__: 切换到另一个分支
     __git switch -c 'branch name'__: 创建一个新分支，并且切换到新分支
     __git merge 'branch name'__: 合并分支
+    __git remote add origin 'repository address'__: 关联远程仓库，用于获取远程最新代码，或者推送本地代码到远程仓库
